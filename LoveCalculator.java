@@ -21,13 +21,13 @@ public class LoveCalculator{
         for (char c: nimi1.toCharArray()) {
             if (c=='l'){
                 l++;
-            }else if(c=='o'){
+            }else if(c=='o'||c=='O'){
                 o++;
-            }else if(c=='v'){
+            }else if(c=='v'||c=='V'){
                 v++;
-            }else if(c=='e'){
+            }else if(c=='e'||c=='E'){
                 e++;
-            }else if(c=='s'){
+            }else if(c=='s'||c=='S'){
                 s++;
             };
         };
